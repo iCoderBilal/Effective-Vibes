@@ -26,12 +26,13 @@ p{
 
 /* --------------------Trad-------------------- */
 .trad{
-  background: rgb(245, 245, 245);
+ 
 }
 
 .trad-content{
-  background: white;
-  height: 200vh;
+  background: rgb(245, 244, 244);
+
+
 }
 
 dotlottie-player{
