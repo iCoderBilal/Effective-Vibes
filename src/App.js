@@ -2,10 +2,13 @@ import "./App.css";
 import logo from "./assets/effectivevibes logo.png";
 import HeroAnimation from "./components/heroAnimation";
 import tadeReligion from "./assets/trad-religion.jpg";
+import InfiniteScrollCom from "./components/InfiniteScroll";
 
 function App() {
   return (
     <>
+
+
       {/* __________________________Header_______________________ */}
       <div className="w-screen">
         <img src={logo} className="w-[50vw] mx-auto lg:w-[20vw] mt-5" />
@@ -114,7 +117,10 @@ function App() {
           </p>
 
         </div>
+
       </div>
+
+      <InfiniteScrollCom />
     </>
   );
 }

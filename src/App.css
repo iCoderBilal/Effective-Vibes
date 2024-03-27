@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-
+body{
+  overflow-x: hidden;
+}
 h1,
 h2,
 h3,
@@ -25,10 +27,9 @@ p{
 }
 
 /* --------------------Trad-------------------- */
-.trad{
- 
+.tard{
+  overflow: hidden !important;
 }
-
 .trad-content{
   background: rgb(245, 244, 244);
 
@@ -45,4 +46,60 @@ dotlottie-player{
     width:70vw;
     height: 70vw;
   }
+}
+/* ____________________________Srroller________________________ */
+
+
+.inner img {
+  max-width: 600px !important;
+  height: auto;
+  padding: 0 15px;
+  object-fit: cover;
+}
+
+.inner img:last-of-type {
+  padding-left: 0;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 800px;
+  margin-top: 70px;
+}
+
+.inner .wrapper {
+  position: absolute;
+  display: flex;
+}
+
+.inner section {
+  display: flex;
+  animation: swipe 40000ms linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+
+@media  screen and (max-width: 765px) {
+  .inner img{
+    max-width: 300px !important;
+    height: auto;
+  }
+
+  .inner {
+   
+    height: 400px;
+
+  }
+  
 }
