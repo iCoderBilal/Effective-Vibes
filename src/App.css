@@ -103,3 +103,17 @@ dotlottie-player{
   }
   
 }
+
+/* ______________________________Conservation_____________________________ */
+.conservation{
+  background: #151F2B;
+}
+.conservation p{
+  border-bottom: 2px solid #1f2833;
+}
+.conservation .hover-text{
+  transition: all ease .3s;
+}
+.conservation .hover-text:hover{
+  transform: translateX(10px);
+}
