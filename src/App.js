@@ -12,14 +12,14 @@ import Img5 from "./assets/img5.png";
 import Img6 from "./assets/img6.png";
 import Img7 from "./assets/img7.jpg";
 import { DefaultAccordion } from "./components/Accordion";
-import { Accordion } from "@material-tailwind/react";
+
 
 function App() {
   return (
     <>
       {/* __________________________Header_______________________ */}
       <div className="w-screen">
-        <img src={logo} className="w-[50vw] mx-auto lg:w-[20vw] mt-5" />
+        <img src={logo} alt="" className="w-[50vw] mx-auto lg:w-[20vw] mt-5" />
       </div>
 
       {/* -------------------------Hero------------------------- */}
@@ -95,7 +95,7 @@ function App() {
           <div className="flex flex-wrap lg:flex-nowrap justify-between mt-16">
             <div className="hero-animation basis-[100%] lg:basis-[45%] flex justify-center items-center">
               <div className="overflow-hidden w-[100%]">
-                <img src={tadeReligion} className="rounded w-[100%]" />
+                <img src={tadeReligion} alt="" className="rounded w-[100%]" />
               </div>
             </div>
 
@@ -188,6 +188,7 @@ function App() {
           </h2>
           <img
             src={Img1}
+            alt=""
             className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
           />
           <p className="lg:text-[1.3vw] text-[4.5vw] leading-[5.5vw] lg:leading-[1.6vw] mt-4 text-slate-600 text-left">
@@ -283,6 +284,7 @@ function App() {
           </p>
 
           <img
+            alt=""
             src={Img2}
             className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
           />
@@ -304,6 +306,7 @@ function App() {
             accepted as necessary zealotry.
           </p>
           <img
+            alt=""
             src={Img3}
             className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
           />
@@ -397,6 +400,7 @@ function App() {
 
         <img
           src={Img4}
+          alt=""
           className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
         />
 
@@ -410,7 +414,9 @@ function App() {
         </p>
 
         <img
+
           src={Img5}
+          alt=""
           className="w-[100%] lg:w-[80%] my-10 mx-auto rounded-lg"
         />
 
@@ -453,6 +459,7 @@ function App() {
 
         <img
           src={Img6}
+          alt=""
           className="w-[100%] lg:w-[80%] my-10 mx-auto rounded-lg"
         />
 
@@ -477,6 +484,7 @@ function App() {
 
         <img
           src={Img7}
+          alt=""
           className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
         />
 

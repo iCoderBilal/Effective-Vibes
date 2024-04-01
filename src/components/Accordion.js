@@ -24,6 +24,7 @@ export function DefaultAccordion() {
                 <AccordionBody className="mb-24">
                     <img
                         src={Img8}
+                        alt=""
                         className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
                     />
 
@@ -118,6 +119,7 @@ export function DefaultAccordion() {
 
                     <img
                         src={Img9}
+                        alt=""
                         className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
                     />
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Scroller from './Scroller';
 import twitter1 from '../assets/twitter-1.jpeg';
