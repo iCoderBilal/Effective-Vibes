@@ -117,3 +117,8 @@ dotlottie-player{
 .conservation .hover-text:hover{
   transform: translateX(10px);
 }
+
+/* ------------------------------How-Spread----------------------- */
+.how-spread{
+  background: #111821;
+}
