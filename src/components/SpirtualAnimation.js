@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 
 
 function SpiritualAnimation() {
+    <h1>Hello</h1>
     useEffect(() => {
         // Function to dynamically load the dotLottie player script
         const loadScript = () => {

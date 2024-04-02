@@ -5,7 +5,9 @@ const Scroller = ({ images, speed = 40000 }) => {
 
 
     return (
+
         <div>
+
             <div className="inner">
                 <div className="wrapper">
                     <section style={{ "--speed": `${speed}ms` }}>
