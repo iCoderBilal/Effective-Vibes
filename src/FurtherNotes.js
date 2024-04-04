@@ -3,6 +3,9 @@ import logo from "./assets/effectivevibes logo.png";
 import NotesAnimation from './components/NotesAnimation';
 import Img1 from "./assets/notes1.webp";
 import Img2 from './assets/notes2.webp';
+import Img3 from './assets/notes3.webp';
+
+import Img4 from './assets/notes4.webp';
 
 const FurtherNotes = () => {
     return (
@@ -40,7 +43,7 @@ const FurtherNotes = () => {
 
             {/* ______________________________rational-Faith_____________________________________ */}
             <div className='rational-faith'>
-                <div className="mx-[6vw] rounded lg:p-16 p-4 bg-[#F5F4F4]">
+                <div className="mx-[6vw] rounded lg:p-16 p-4 bg-[#F5F4F4] mb-16">
                     <h2 className="lg:text-[4vw] text-[8vw] leading-[9.6vw] font-medium lg:leading-[4.2vw] text-center uppercase">
                         The Argument For Rational Faith
                     </h2>
@@ -214,6 +217,126 @@ const FurtherNotes = () => {
                         <br />
                         The vibes are inevitable, and the token is a vehicle to measure the vibes, to give them deeper meaning in our lives, to fund the visions of the tribe, and to create beauty, spread hope, and spread hope. To give individuals hope and faith that had been lost. To give the idea of love and support that too many lack. Who lack it simply because they lack the faith in finding and feeling it. And so by bringing their faith forward, bringing their hope forward, we allow them to love themselves. We allow one to see only the positive in their past. To accept their past, to love their past for it has happened for a reason. To find that reason in the present, to love the present and to have hope for the future, and love for their part of it.
                     </p>
+                </div>
+            </div>
+
+            {/* ____________________________________selfishness_________________________________ */}
+
+            <div className="selfishness rounded p-4 bg-[#111821]">
+                <div className='px-[6vw]'>
+                    <h2 className="lg:text-[3vw] text-[8vw] leading-[9.6vw] font-medium lg:leading-[3.5vw] text-center mt-16 text-white uppercase">
+                        Embracing The Infinite
+                    </h2>
+
+                    <p className="lg:text-[1.3vw] text-[4.5vw] leading-[5.5vw] lg:leading-[1.6vw] text-slate-300 text-left mt-4">
+                        From selfishness I found love for everything and everyone. First I had to love myself to really understand what love meant for my family, and then for the world
+                        <br />
+                        <br />
+                        Now the vibes are the most condensed format I can think of giving a reader love of the past present and future
+                        <br />
+                        <br />
+                        I believe all world problems stem from lack of love and at the very least  we’d be better off with me. I’d be keen to see how a community operates off of these principles.
+                        <br />
+                        <br />
+                        Great vibes are necessary if reality is created based on our belief system. Is reality not?
+                        <br />
+                        <br />
+                        <b>If we can believe it we can achieve it</b>
+                        <br />
+                        <br />
+                        Imagine a world with supreme faith in an amazing future
+                        <br />
+                        <br />
+                        There’s no risk, only regret of not trying our best to see it through.
+                    </p>
+                    <img
+                        src={Img3}
+                        alt=""
+                        className="w-[100%] lg:w-[80%] my-10 mx-auto rounded-lg"
+                    />
+
+                    <p className="lg:text-[1.3vw] text-[4.5vw] leading-[5.5vw] lg:leading-[1.6vw] text-slate-300 text-left mt-4">
+                        <b>To have hope in the face of hopelessness</b>
+                        <br />
+                        <br />
+                        It’s weird because it gives you hope.
+                        <br />
+                        <br />
+                        To have hope in hope itself.
+                        <br />
+                        <br />
+                        Faith, Hope, feelings of being a part of a grander plan.
+                        <br />
+                        <br />
+                        There is a greater being watching over your life to ensure that you pushing yourself turns into bounties and glory.
+                        <br />
+                        <br />
+                        And if theres not its better to think that there is.
+                        <br />
+                        <br />
+                        God, as a vibe.
+                        <br />
+                        <br />
+                        With no more proof than proof of vibes.
+                        <br />
+                        <br />
+                        Each separate religious group can agree on the oneness of the holy vible. In this case the vible must be straight and clear and good and short.
+                        <br />
+                        <br />
+                        Love god = love the universe = love your story = love yourself = love the moment = love your past = derive great meaning from your history
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                        <b>Anyone you see who has success that you wish to have first had it in imagination and believed in it.</b>
+                        <br />
+                        <br />
+                        Your dreams and everything you’ve ever wanted are just on the other side of your fears.
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+
+                        <b>If we increase the perspective of our world enough, culture will shift.</b>
+                        <br />
+                        <br />
+                        This is a mission we can partake in together.
+                        <br />
+                        <br />
+                        <br />
+
+
+                        <b>What is the absolute best thing I could rationally believe to be true and why am I not believing in that?</b>
+                        <br />
+                        <br />
+                        I said it myself, we can’t know for certain what’s going on, so why not believe the theory that makes me live the best life.
+                        <br />
+                        <br />
+                        That theory is that Quantam immortality is a thing, that no matter what I cannot die.
+                        <br />
+                        <br />
+                        What is the door to universal love in its most condensed  format?
+                        <br />
+                        <br />
+                        Infinite symbol with faith in the center
+                        <br />
+                        <br />
+                        The door to infinite love
+                        <br />
+                        <br />
+                        God has a plan for you and if he doesn't its more helpful to think that he does.
+
+                    </p>
+
+                    <img
+                        src={Img4}
+                        alt=""
+                        className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
+                    />
+
                 </div>
             </div>
         </>
