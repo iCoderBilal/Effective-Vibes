@@ -7,6 +7,8 @@ import {
 
 import Img8 from "../assets/img8.webp";
 import Img9 from "../assets/img9.jpeg";
+import Img10 from '../assets/Img9.webp';
+import Img11 from '../assets/Img11.webp';
 
 export function DefaultAccordion() {
     const [open, setOpen] = React.useState(1);
@@ -198,8 +200,13 @@ export function DefaultAccordion() {
                         the wave function would play a role in conscious awareness.” She
                         admits this is “highly speculative and no evidence speaks for it,”
                         but it is “compatible with what we know.”
-                        <br />
-                        <br />
+                        <img
+                            src={Img11}
+                            alt=""
+                            className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
+                        />
+
+
                         In The Big Picture, Sean Carrol writes
                         <br />
                         <br />
@@ -265,8 +272,13 @@ export function DefaultAccordion() {
                         maintained friendships with a number of the leading quantum
                         physicists, including Wolfgang Pauli, and collaborated with some of
                         them.
-                        <br />
-                        <br />
+
+                        <img
+                            src={Img10}
+                            alt=""
+                            className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
+                        />
+
                         One of my pet theories is that humanity’s rapacious exploitation of
                         the Earth’s nonrenewable resources is one element of a bio-cosmic
                         evolutionary process, as exquisitely timed and sequenced as fetal

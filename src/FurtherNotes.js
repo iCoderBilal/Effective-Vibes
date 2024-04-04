@@ -6,6 +6,7 @@ import Img2 from './assets/notes2.webp';
 import Img3 from './assets/notes3.webp';
 
 import Img4 from './assets/notes4.webp';
+import { NotesAccordion } from './components/NotesAccordion';
 
 const FurtherNotes = () => {
     return (
@@ -337,6 +338,46 @@ const FurtherNotes = () => {
                         className="w-[100%] lg:w-[50%] my-10 mx-auto rounded-lg"
                     />
 
+                    <p className="lg:text-[1.3vw] text-[4.5vw] leading-[5.5vw] lg:leading-[1.6vw] text-slate-300 text-left mt-4">
+                        Our goal is not changing peoples faith or beliefs if they have it but focusing on the ATHEISTS and NIHILISTS who lack any faith or belief at all. Just trying to make SOMETHING stick to spread hope, faith, meaning, and purpose onward.
+                        <br />
+                        <br />
+                        Reality is more so coded for perfectly testing MORALITY.
+
+                        And that is where also the ultimate test of meaning is derived from.
+                        <br />
+                        <br />
+                        All you really need is big understanding of a grander purpose greater than oneself and a tribe to move forward towards that grander achievement.
+                        You will be eternally grateful that you went monk mode. If one can believe this, they can achieve this.
+                        <br />
+                        <br />
+                        Building the kingdom of Israel when Israel means the difficulty with god
+
+                        What does name Israel mean?
+
+                        God Contended
+                        <br />
+                        <br />
+                        Hebrew. Meaning. <b>'God Contended', 'Wrestles with God', 'Triumphant with God'</b> Other names
+                        <br />
+                        <br />
+                        “Every kingdom divided against itself is brought to desolation; and every city or house divided against itself shall not stand” (Matthew 12:25).
+                        <br />
+                        <br />
+                        The vible’s a picture book.
+                        <br />
+                        <br />
+                        Token holders get to rewrite the vible.
+                        <br />
+                        <br />
+                        Bitcoin is the tablet of stone.
+                        <br />
+                        <br />
+                        You can read it, and you can own it, but you cannot write a holy text on its pages.
+                    </p>
+
+
+                    <NotesAccordion />
                 </div>
             </div>
         </>

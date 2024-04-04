@@ -11,8 +11,9 @@ import Img4 from "./assets/img4.jpeg";
 import Img5 from "./assets/img5.png";
 import Img6 from "./assets/img6.png";
 import Img7 from "./assets/img7.jpg";
+import Img9 from "./assets/Img9.webp";
 import { DefaultAccordion } from "./components/Accordion";
-
+import { Link } from 'react-router-dom';
 
 function InternetEnlight() {
     return (
@@ -517,7 +518,7 @@ function InternetEnlight() {
                 </p>
                 <div className="my-8 flex justify-center">
 
-                    <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-2xl px-5 py-2.5 text-center me-2 mb-2">Internet Enlightenment Further Notes</button>
+                    <Link to="/notes" ><button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-2xl px-5 py-2.5 text-center me-2 mb-2">Internet Enlightenment Further Notes</button></Link>
                 </div>
 
             </div >
