@@ -11,7 +11,7 @@ import Img4 from "./assets/img4.jpeg";
 import Img5 from "./assets/img5.png";
 import Img6 from "./assets/img6.png";
 import Img7 from "./assets/img7.jpg";
-import Img9 from "./assets/Img9.webp";
+
 import { DefaultAccordion } from "./components/Accordion";
 import { Link } from 'react-router-dom';
 

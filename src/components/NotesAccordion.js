@@ -5,8 +5,7 @@ import {
     AccordionBody,
 } from "@material-tailwind/react";
 
-import Img8 from "../assets/img8.webp";
-import Img9 from "../assets/img9.jpeg";
+
 
 export function NotesAccordion() {
     const [open, setOpen] = React.useState(1);
