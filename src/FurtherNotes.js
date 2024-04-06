@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "./assets/effectivevibes logo.png";
+import logo from "./assets/alt-logo.png";
 import NotesAnimation from './components/NotesAnimation';
 import Img1 from "./assets/notes1.webp";
 import Img2 from './assets/notes2.webp';
