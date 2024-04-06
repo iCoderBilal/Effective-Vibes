@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./assets/effectivevibes logo.png";
+import logo from "./assets/alt-logo.png";
 import HeroAnimation from "./components/heroAnimation";
 import tadeReligion from "./assets/trad-religion.jpg";
 import InfiniteScrollCom from "./components/InfiniteScroll";
@@ -20,7 +20,7 @@ function InternetEnlight() {
         <>
             {/* __________________________Header_______________________ */}
             <div className="w-screen">
-                <img src={logo} alt="" className="w-[50vw] mx-auto lg:w-[20vw] mt-5" />
+                <img src={logo} alt="" className="w-[27vw] mx-auto lg:w-[7vw] mt-5" />
             </div>
 
             {/* -------------------------Hero------------------------- */}
@@ -28,7 +28,7 @@ function InternetEnlight() {
                 <div className="flex flex-wrap lg:pl-[6vw] lg:pr-[0vw] px-[4vw] mb-16">
                     <div className="hero-text basis-[100%] lg:basis-[50%] mt-16 mb-8">
                         <h2 className="lg:text-[7vw] text-[15vw] leading-[15vw] font-medium lg:leading-[7vw] text-center lg:text-left ">
-                            Internet Enlightenment
+                            Shared Belief Systems
                         </h2>
                         <p className="lg:text-[1.3vw] text-[4.5vw] leading-[5.5vw] lg:leading-[1.6vw] mt-10 text-slate-600 text-center lg:text-left">
                             {" "}
@@ -518,7 +518,7 @@ function InternetEnlight() {
                 </p>
                 <div className="my-8 flex justify-center">
 
-                    <Link to="/notes" ><button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-2xl px-5 py-2.5 text-center me-2 mb-2">Internet Enlightenment Further Notes</button></Link>
+                    <Link to="/notes" ><button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-2xl px-5 py-2.5 text-center me-2 mb-2"> Shared Belief Systems Further Notes</button></Link>
                 </div>
 
             </div >

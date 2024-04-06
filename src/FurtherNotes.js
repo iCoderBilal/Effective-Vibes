@@ -13,7 +13,8 @@ const FurtherNotes = () => {
         <>
             {/* __________________________Header_______________________ */}
             <div className="w-screen">
-                <img src={logo} alt="" className="w-[50vw] mx-auto lg:w-[20vw] mt-5" />
+                <img src={logo} alt="" className="w-[27vw] mx-auto lg:w-[7vw] mt-5" />
+                {/* <img src={logo} alt="logo" className="w-[27vw] mx-auto lg:w-[7vw] mt-5" /> */}
             </div>
 
             {/* -------------------------Hero------------------------- */}
@@ -21,7 +22,7 @@ const FurtherNotes = () => {
                 <div className="flex flex-wrap lg:pl-[6vw] lg:pr-[0vw] px-[4vw] mb-16">
                     <div className="hero-text basis-[100%] lg:basis-[50%] mt-16 mb-8">
                         <h2 className="lg:text-[7vw] text-[15vw] leading-[15vw] font-medium lg:leading-[7vw] text-center lg:text-left ">
-                            <span className='lg:text-[4vw] lg:leading-[4.5vw] text-[12vw] leading-[13vw]'>Internet Enlightenment </span>Further Notes
+                            <span className='lg:text-[4vw] lg:leading-[4.5vw] text-[12vw] leading-[13vw]'> Shared Belief Systems </span>Further Notes
                         </h2>
                         <p className="lg:text-[1.3vw] text-[4.5vw] leading-[5.5vw] lg:leading-[1.6vw] mt-10 text-slate-600 text-center lg:text-left">
                             Unsorted, Raw:
